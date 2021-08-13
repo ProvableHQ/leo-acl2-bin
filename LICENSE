@@ -1,0 +1,47 @@
+The files in this repository along with their licenses are detailed here.
+
+* lx86cl64
+  This is a binary executable for Clozure CL.
+  Its license is shown in LICENSE-ccl
+
+* leo-acl2.lx86cl64
+  This is a heap file containing binaries for:
+  (1) ACL2 and some ACL2 Community Books
+      - the license is shown in LICENSE-acl2
+  (2) leo-acl2
+      - license below
+
+The remaining files are covered by the license below, which is
+based on the template found July 25, 2014
+at: http://opensource.org/licenses/BSD-3-Clause.
+
+
+Copyright (C) 2021 Aleo Systems Inc.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+o Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+
+o Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+
+o Neither the name of the copyright holder nor the names of
+  its contributors may be used to endorse or promote products derived
+  from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
