@@ -30,4 +30,11 @@ The tgc script returns an exit status of 0 if the theorem was successfully gener
 |:---------------:|:----------:|:---------------:|:-----------:|-----------|
 | 0.1.0           | 2021-07-30 |  --             |  --         | adapt to changes in AST representation for countdown loops and end bound inclusivity
 | 0.1.1           | 2021-08-09 |  583f03b        |  20c0f9464  | reduce amount of output from tgc
-| 0.1.2           | 2021-08-18 |  0683a5c        |  8d24d938c  | add tgc for type-inference; split .tl file into two, one for each phase
+| 0.1.2           | 2021-08-18 |  0683a5c(*1)    |  8d24d938c  | add tgc for type-inference; split .tl file into two, one for each phase
+| 0.1.3           | 2021-08-30 |  c29e5dc        |  0b52b2fbc  | relax array type checking; handle circuit expression types; tolerate other changes in AST format
+
+
+## Footnotes
+
+(*) final tgc script in release tarball is slightly modified from this commit,
+    due to more strict bash processing on github action ubuntu than a workstation ubuntu (requires '[[' instead of '[').
