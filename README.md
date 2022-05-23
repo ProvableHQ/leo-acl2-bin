@@ -26,8 +26,10 @@ To create the parser executable, do the following:
 That should install the `parser` executable in your `.cargo/bin` directory,
 which you can add to your `PATH`.
 
-To run thre parser executable, simply call it with the `.leo` source file name on the command line.
-A file with the same name but the `.json` extension will be created.  For example
+To run `parser`, simply call it with the `.leo` source file name on the command line.
+A file with the same name but the `.json` extension will be created in the current directory.
+If you want it to be in the same directory as the `.leo` file, you would `cd` to the directory
+first.  For example:
 ```
     cd leo/tests/compiler/function
     parser return.leo
@@ -42,7 +44,7 @@ The leo compiler has flags to generate these JSON files.  For example,
 
 ## Running tgc
 
-Currently supported phase is parsing.
+Currently the only supported phase is parsing.
 ```
     /path/to/tgc parsing source.leo source.json parsing-theorem.lisp
 ```
